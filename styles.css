@@ -5,8 +5,9 @@
   margin: auto;
   width: 90vw;
 }
-body{
-    background-color: #e6e6ff;
+
+body {
+  background-color: #e6e6ff;
 }
 
 h1 {
@@ -15,11 +16,11 @@ h1 {
 }
 
 nav ul li {
-font-family: 'Signika', sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 h2 {
-font-family: 'Signika', sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 footer {
