@@ -48,6 +48,7 @@ but you can use other units like pixels too*/
 .imagebox {
   padding: 1rem;
   background: #ffe6ff;
+  width: 50%
 }
 
 .spotlight {
