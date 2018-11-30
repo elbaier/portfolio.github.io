@@ -1,7 +1,7 @@
 .pagecontainer {
-  display: grid;
+  /*display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .2fr .2fr 1fr .2fr;
+  grid-template-rows: .2fr .2fr 1fr .2fr;*/
   margin: auto;
   width: 100vw;
 }
@@ -9,9 +9,14 @@ body{
     background-color: white;
 }
 
+header {
+  padding: 1rem;
+    text-align: center;
+}
+
 h1 {
   font-family: 'Kameron', serif;
-  color: #e6e6ff;
+  color: ##d9b3ff;
 }
 
 nav ul li {
@@ -36,7 +41,7 @@ but you can use other units like pixels too*/
 .image-container-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2rem;
   max-width: 60vw;
   margin: auto;
