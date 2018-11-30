@@ -3,14 +3,15 @@
   grid-template-columns: 1fr;
   grid-template-rows: .2fr .2fr 1fr .2fr;
   margin: auto;
-  width: 90vw;
+  width: 100vw;
 }
 body{
-    background-color: #e6e6ff;
+    background-color: white;
 }
 
 h1 {
   font-family: 'Kameron', serif;
+  color: #e6e6ff;
 }
 
 nav ul li {
@@ -30,7 +31,7 @@ and set up how many columns and rows are needed for the image grid.
 You could then go on to position each div on the grid though if
 they are equidistant it is not necessary.
 fr is a fractional, scalable unit for relative portions of the page,
-but you can use other units like pixels too
+but you can use other units like pixels too*/
 
 .image-container-grid {
   display: grid;
@@ -39,19 +40,20 @@ but you can use other units like pixels too
   grid-gap: 2rem;
   max-width: 60vw;
   margin: auto;
-  background: green;
+  background: white;
 
 }
 
 .imagebox {
   padding: 1rem;
-  background: yellow;
+  background: #ffe6ff;
 
 }
 
 img {
-  width: 100%;
+  width: 20%;
 }
+
 /* You could add grid postioning here for these child items of the grid container and other unique styleing
 .project1 {}
 .project2 {}
