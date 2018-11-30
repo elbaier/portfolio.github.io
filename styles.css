@@ -48,7 +48,6 @@ but you can use other units like pixels too*/
 .imagebox {
   padding: 1rem;
   background: #ffe6ff;
-  width: 50%
 }
 
 .spotlight {
@@ -58,6 +57,9 @@ but you can use other units like pixels too*/
   width: 50%;
 }
 
+img {
+  width: 50%;
+}
 /* You could add grid postioning here for these child items of the grid container and other unique styleing
 .project1 {}
 .project2 {}
