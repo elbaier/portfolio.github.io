@@ -1,0 +1,21 @@
+.pagecontainer {
+  /*
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .2fr .2fr 1fr .2fr;
+  margin: auto;
+  width: 90vw;*/
+  background-color: #e6f7ff;
+}
+
+nav ul li {
+  font-family: 'Signika', sans-serif;
+}
+
+h2 {
+  font-family: 'Signika', sans-serif;
+}
+
+h1 {
+  font-family: 'Hammersmith One', sans-serif;
+}
