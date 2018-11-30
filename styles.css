@@ -5,26 +5,24 @@
   margin: auto;
   width: 100vw;
 }
-body{
-    background-color: white;
+
+body {
+  background-color: white;
 }
 
 header {
   padding: 1rem;
-    text-align: center;
-}
-
-h1 {
+  text-align: center;
   font-family: 'Kameron', serif;
   color: ##d9b3ff;
 }
 
 nav ul li {
-font-family: 'Signika', sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 h2 {
-font-family: 'Signika', sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 footer {
@@ -37,7 +35,6 @@ You could then go on to position each div on the grid though if
 they are equidistant it is not necessary.
 fr is a fractional, scalable unit for relative portions of the page,
 but you can use other units like pixels too*/
-
 .image-container-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -46,13 +43,11 @@ but you can use other units like pixels too*/
   max-width: 60vw;
   margin: auto;
   background: white;
-
 }
 
 .imagebox {
   padding: 1rem;
   background: #ffe6ff;
-
 }
 
 img {
