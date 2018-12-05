@@ -39,7 +39,7 @@ fr is a fractional, scalable unit for relative portions of the page,
 but you can use other units like pixels too*/
 .image-container-grid {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 2fr 2fr;
   grid-gap: 1rem;
   max-width: 65vw;
