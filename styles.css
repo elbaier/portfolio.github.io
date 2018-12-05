@@ -60,6 +60,24 @@ but you can use other units like pixels too*/
 img {
   width: 50%;
 }
+
+.project1 {
+  width: 40%;
+}
+
+.project2 {
+  width: 40%;
+}
+
+.project3 {
+  width: 60%;
+}
+
+.project4 {
+  width: 70%;
+}
+
+
 /* You could add grid postioning here for these child items of the grid container and other unique styleing
 .project1 {}
 .project2 {}
