@@ -20,6 +20,9 @@ header {
 
 nav ul li {
   font-family: 'Signika', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
 }
 
 h2 {
@@ -49,7 +52,7 @@ but you can use other units like pixels too*/
 }
 
 .imagebox {
-  padding: 0.7rem;
+  padding: 1.5rem;
   background: #ffe6ff;
 }
 
@@ -62,7 +65,7 @@ but you can use other units like pixels too*/
 
 
 img{
-  width: 100%;
+  width: 30vw;
   height: 100%;
 }
 
