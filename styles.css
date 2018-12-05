@@ -15,6 +15,7 @@ header {
   text-align: center;
   font-family: 'Kameron', serif;
   color: #cc99ff;
+  font-size: 3em;
 }
 
 nav ul li {
@@ -23,6 +24,7 @@ nav ul li {
 
 h2 {
   font-family: 'Amaranth', sans-serif;
+  font-size: 2.5em;
 }
 
 footer {
