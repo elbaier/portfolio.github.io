@@ -42,7 +42,7 @@ but you can use other units like pixels too*/
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr 2fr;
   grid-gap: 2rem;
-  max-width: 70vw;
+  max-width: 65vw;
   margin: auto;
   background: white;
 }
