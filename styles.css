@@ -20,7 +20,8 @@ header {
 
 nav ul li {
   font-family: 'Signika', sans-serif;
-  font-size: 1em;
+  font-size: 2em;
+  list-style-type: none;
 }
 
 a:link {
