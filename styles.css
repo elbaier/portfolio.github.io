@@ -10,6 +10,10 @@
 
 body {
   background-color: white;
+  /*background-image: url("images/webbg2.png");
+  background-repeat: no-repeat;
+  background-size: 250vw;
+  background-position: center;*/
 }
 
 header {
@@ -79,6 +83,8 @@ footer {
 	text-align: center;
 	padding: 2rem;
   font-family: 'Signika', sans-serif;
+  background-image: url("images/starfooter.png");
+  background-size: 30vw;
 }
 
 footer a:link {
@@ -114,7 +120,7 @@ but you can use other units like pixels too*/
   margin-right: auto;
   padding-top: 1rem;
   padding-left: 2rem;
-  background: white;
+  background: none;
 }
 
 .imagebox {
@@ -180,7 +186,7 @@ img{
     margin: auto;
     padding-top: 1rem;
     padding-right: 8rem;
-    background: white;
+    background: none;
   }
 
   .imagebox {
