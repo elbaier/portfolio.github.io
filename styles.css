@@ -1,3 +1,5 @@
+/*Mobile First Layout*/
+
 .pagecontainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -17,10 +19,10 @@ header {
   text-align: center;
   font-family: 'Kameron', serif;
   color: #cc99ff;
-  font-size: 3rem;
+  font-size: 8vw;
   background-image: url("images/headergraphic2.png");
   background-repeat: no-repeat;
-  background-size: 650px 250px;
+  background-size: 80vw;
   background-position: center;
 }
 
@@ -36,15 +38,19 @@ aside nav ul {
 
 
 aside nav ul li {
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: 'Signika', sans-serif;
-  font-size: 2rem;
+  font-size: 5vw;
   list-style-type: none;
 }
 
 aside nav ul li a {
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 a:link {
@@ -85,7 +91,7 @@ but you can use other units like pixels too*/
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80vw;
 }
 
 .image-container-grid {
@@ -97,7 +103,7 @@ but you can use other units like pixels too*/
   margin-left: auto;
   margin-right: auto;
   padding-top: 1rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
   background: white;
 }
 
@@ -120,12 +126,39 @@ img{
 
 
 /*****Responsive for Larger Screens*******/
-@media only screen and (min-width: 900px)  {
+@media only screen and (min-width: 800px)  {
 /*sets the header image to full screen width*/
   header {
+    font-size: 3rem;
     background-size: 650px 250px;
   }
 
+  aside nav ul {
+    text-align: center;
+  }
+
+
+  aside nav ul li {
+    display: inline;
+    font-family: 'Signika', sans-serif;
+    font-size: 2rem;
+    list-style-type: none;
+  }
+
+  aside nav ul li a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
 
 
   .image-container-grid {
@@ -149,7 +182,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 80vw;
   }
 
 
