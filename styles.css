@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: .2fr 0.1fr 1.6fr .1fr;
   margin: auto;
-  width: 100vw;
+  width: 90vw;
 }
 
 body {
@@ -17,7 +17,7 @@ header {
   text-align: center;
   font-family: 'Kameron', serif;
   color: #cc99ff;
-  font-size: 3em;
+  font-size: 3rem;
   background-image: url("images/headergraphic2.png");
   background-repeat: no-repeat;
   background-size: 650px 250px;
@@ -38,7 +38,7 @@ aside nav ul {
 aside nav ul li {
   display: inline;
   font-family: 'Signika', sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   list-style-type: none;
 }
 
@@ -64,7 +64,7 @@ a:visited {
 
 h2 {
   font-family: 'Amaranth', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 footer {
@@ -81,23 +81,6 @@ You could then go on to position each div on the grid though if
 they are equidistant it is not necessary.
 fr is a fractional, scalable unit for relative portions of the page,
 but you can use other units like pixels too*/
-.image-container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  max-width: 60vw;
-  margin: auto;
-  padding-top: 1rem;
-  padding-right: 8rem;
-  background: white;
-}
-
-.imagebox {
-  padding: 1.5rem;
-  background: #ffe6ff;
-}
-
 .spotlight {
   display: block;
   margin-left: auto;
@@ -105,9 +88,27 @@ but you can use other units like pixels too*/
   width: 70%;
 }
 
+.image-container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-gap: 2rem;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  background: white;
+}
+
+.imagebox {
+  padding: 1.5rem;
+  max-width: 60vw;
+  background: #ffe6ff;
+}
 
 img{
-  width: 30vw;
+  width: 60vw;
   height: 100%;
 }
 
@@ -116,3 +117,43 @@ img{
 .project2 {}
 .project3 {}
 .project4 {} */
+
+
+/*****Responsive for Larger Screens*******/
+@media only screen and (min-width: 900px)  {
+/*sets the header image to full screen width*/
+  header {
+    background-size: 650px 250px;
+  }
+
+
+
+  .image-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    max-width: 60vw;
+    margin: auto;
+    padding-top: 1rem;
+    padding-right: 8rem;
+    background: white;
+  }
+
+  .imagebox {
+    padding: 1.5rem;
+    background: #ffe6ff;
+  }
+
+  .spotlight {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+
+  img{
+    width: 30vw;
+    height: 100%;
+  }
