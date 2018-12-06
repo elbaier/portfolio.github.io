@@ -53,12 +53,12 @@ aside nav ul li a {
   padding-bottom: 1rem;
 }
 
-a:link {
+ul li a:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+ul li a:visited {
   text-decoration: none;
   color: black;
 }
@@ -79,6 +79,16 @@ footer {
 	text-align: center;
 	padding: 2rem;
   font-family: 'Signika', sans-serif;
+}
+
+footer a:link {
+  text-decoration: underline;
+  color: #1a1aff;
+}
+
+footer a:visited {
+  text-decoration: underline;
+  color: #1a1aff;
 }
 
 /*This is the container div where you declare CSS grid display
@@ -189,4 +199,24 @@ img{
   img{
     width: 30vw;
     height: 100%;
+  }
+
+  ul li a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul li a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  footer a:link {
+    text-decoration: underline;
+    color: #1a1aff;
+  }
+
+  footer a:visited {
+    text-decoration: underline;
+    color: #1a1aff;
   }
