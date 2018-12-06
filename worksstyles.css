@@ -160,6 +160,7 @@ img{
   width: 70vw;
 }
 
+
 /*****Responsive for Larger Screens*******/
 @media only screen and (min-width: 800px)  {
 /*sets the header image to full screen width*/
