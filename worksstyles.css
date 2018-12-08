@@ -2,13 +2,17 @@
 .pagecontainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 6fr .1fr;
+  grid-template-rows: 0.1fr 0.2fr 0.1fr 6fr .1fr;
   margin: auto;
   width: 90vw;
 }
 
 body {
   background-color: #ffe6ff;
+  background-image: url("images/webbg5m.png");
+  background-repeat: no-repeat;
+  background-size: 260vw;
+  background-position: top;
 }
 
 header {
@@ -18,10 +22,10 @@ header {
   text-align: center;
   font-family: 'Kameron', serif;
   color: #cc99ff;
-  font-size: 5vw;
+  font-size: 6vw;
   background-image: url("images/starfooter.png");
   background-repeat: no-repeat;
-  background-size: 70vw;
+  background-size: 80vw;
   background-position: center;
 }
 
@@ -86,18 +90,23 @@ ul li a:visited {
 
 .worksmenu ul li a:link {
   text-decoration: none;
-  color: white;
+  color: #29a3a3;
 }
 
 .worksmenu ul li a:visited {
   text-decoration: none;
-  color: white;
+  color: #29a3a3;
 }
 
 .locationmarker {
   background: none;
   background-image: url("images/starfooter.png");
   background-size: contain;
+}
+
+.worksmenu .locationmarker2 a {
+  text-decoration: none;
+  color: #9933ff;
 }
 
 .bodysection {
@@ -222,7 +231,7 @@ img {
   }
 
   .worksmenu {
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1 / 5;
   }
 
@@ -256,17 +265,25 @@ img {
 
   .worksmenu ul li a:link {
     text-decoration: none;
-    color: white;
+    color: #29a3a3;
   }
 
   .worksmenu ul li a:visited {
     text-decoration: none;
-    color: white;
+    color: #29a3a3;
   }
 
   .bodysection {
     grid-row: 4;
     grid-column: 1 / 5;
+  }
+
+  body {
+    background-color: #ffe6ff;
+    background-image: url("images/webbg5.png");
+    background-repeat: no-repeat;
+    background-size: 300vw;
+    background-position: top;
   }
 
   h2 {

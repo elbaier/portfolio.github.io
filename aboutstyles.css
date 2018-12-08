@@ -9,10 +9,10 @@
 
 body {
   background-color: #e6e6ff;
-  background-image: url("images/webbg3m.png");
+  background-image: url("images/webbg5m.png");
   background-repeat: no-repeat;
-  background-size: 200vw;
-  background-position: right;
+  background-size: 260vw;
+  background-position: top;
 }
 
 header {
@@ -22,10 +22,10 @@ header {
   text-align: center;
   font-family: 'Kameron', serif;
   color: #cc99ff;
-  font-size: 5vw;
+  font-size: 6vw;
   background-image: url("images/starfooter.png");
   background-repeat: no-repeat;
-  background-size: 70vw;
+  background-size: 80vw;
   background-position: center;
 }
 
@@ -92,6 +92,7 @@ article {
   font-family: 'Signika', sans-serif;
 }
 
+/*
 .coloredtext {
   background-color: #e0bbf9;
 }
@@ -132,10 +133,10 @@ footer a:visited {
   /*sets the header image to full screen width*/
   body {
     background-color: #e6e6ff;
-    background-image: url("images/webbg3.png");
+    background-image: url("images/webbg5.png");
     background-repeat: no-repeat;
-    background-size: 200vw;
-    background-position: right;
+    background-size: 300vw;
+    background-position: top;
   }
 
   header {

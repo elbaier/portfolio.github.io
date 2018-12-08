@@ -9,10 +9,10 @@
 
 body {
   background-color: white;
-  /*background-image: url("images/webbg2.png");
+  background-image: url("images/webbg5m.png");
   background-repeat: no-repeat;
-  background-size: 250vw;
-  background-position: center;*/
+  background-size: 260vw;
+  background-position: center;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
   font-size: 8vw;
   background-image: url("images/starfooter.png");
   background-repeat: no-repeat;
-  background-size: 80vw;
+  background-size: 90vw;
   background-position: center;
 }
 
@@ -181,6 +181,15 @@ img {
     text-decoration: none;
     color: black;
   }
+
+
+    body {
+      background-color: white;
+      background-image: url("images/webbg5.png");
+      background-repeat: no-repeat;
+      background-size: 300vw;
+      background-position: center;
+    }
 
   .image-container-grid {
     display: grid;
